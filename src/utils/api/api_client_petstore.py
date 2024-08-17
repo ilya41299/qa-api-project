@@ -162,3 +162,13 @@ class PetStoreApiClient(HTTPClient):
                 "complete": complete,
             },
         )
+
+    def get_order(
+        self,
+        id: int,
+    ) -> requests.models.Response:
+        return self.make_request(
+            method=HTTPMethod.GET,
+            path=f"/v2/store/order/{id}/",
+        )
+
