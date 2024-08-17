@@ -17,6 +17,7 @@ pydantic-settings = "^2.4.0"
 faker = "^27.0.0"
 polyfactory = "^2.16.2"
 pytest-xdist = "^3.6.1"
+allure-pytest = "^2.13.5"
 
 
 [build-system]
